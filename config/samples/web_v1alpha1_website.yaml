@@ -1,0 +1,9 @@
+apiVersion: web.devopscloud.com/v1alpha1
+kind: Website
+metadata:
+  labels:
+    app.kubernetes.io/name: k8s-custom-controller
+    app.kubernetes.io/managed-by: kustomize
+  name: website-sample
+spec:
+  # TODO(user): Add fields here
